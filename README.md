@@ -37,39 +37,5 @@
 3. **Bước 3 — Ghép Thẻ Nhanh (Speed Match)**:
    - Trò chơi ghép cặp nhanh giữa ô **Chữ Hán phồn thể** và ô **Nghĩa tiếng Việt + Pinyin + Âm Hán Việt** để khắc sâu trí nhớ ngắn hạn sang dài hạn.
 
-## Cấu Trúc Thư Mục Dự Án
 
-| Tên file | Vai trò trong dự án |
-| :--- | :--- |
-| `index.html` | Toàn bộ mã nguồn giao diện, kho từ vựng A1–B1, bộ phát âm `zh-TW` và logic học tập (Single-File App) |
-| `README.md` | Tài liệu giới thiệu dự án, hướng dẫn học tập và hướng dẫn triển khai lên GitHub Pages |
-| `.nojekyll` | File cấu hình giúp GitHub Pages phục vụ trực tiếp trang tĩnh nhanh chóng mà không cần qua bước biên dịch Jekyll |
 
-## Hướng Dẫn Đưa Ứng Dụng Lên GitHub Pages Miễn Phí
-
-### Cách 1: Tải file trực tiếp trên giao diện web GitHub (Nhanh nhất - 1 phút)
-
-1. Đăng nhập vào tài khoản GitHub của bạn và bấm nút **New repository**.
-2. Đặt tên repository (ví dụ: `taipei-mandarin`), chọn chế độ **Public**, rồi bấm **Create repository**.
-3. Chọn **uploading an existing file**, kéo thả 3 file `index.html`, `README.md` và `.nojekyll` (từ gói `.zip` hoặc tải trực tiếp trong ứng dụng) vào rồi bấm **Commit changes**.
-4. Vào mục **Settings → Pages** của repository, tại phần **Build and deployment → Branch**, chọn nhánh `main` và thư mục `/ (root)`, sau đó bấm **Save**.
-5. Đợi khoảng 30–60 giây, ứng dụng của bạn sẽ hoạt động tại địa chỉ:
-   `https://<ten-github-cua-ban>.github.io/taipei-mandarin/`
-
-### Cách 2: Đẩy mã nguồn bằng Git trên Terminal / Command Prompt
-
-```bash
-mkdir taipei-mandarin && cd taipei-mandarin
-# Copy file index.html và README.md vào thư mục này
-git init
-git branch -M main
-git add index.html README.md
-git commit -m "Initial commit: Taipei Mandarin A1-B1 web app"
-git remote add origin https://github.com/TEN_USER_CUA_BAN/taipei-mandarin.git
-git push -u origin main
-```
-
-## Mẹo Sử Dụng Hiệu Quả Trên Điện Thoại Tại Đài Bắc
-
-- **Ghim ra màn hình chính (Add to Home Screen)**: Mở đường link GitHub Pages của bạn bằng trình duyệt Safari (iOS) hoặc Chrome (Android), chọn **Thêm vào màn hình chính (Add to Home Screen)** để dùng như một ứng dụng di động thực thụ.
-- **Tự thêm từ vựng chuyên ngành**: Khi gặp từ mới trên slide bài giảng của giáo sư hoặc biển hiệu ngoài đường ở Đài Bắc, hãy mở tab **📚 Kho từ A1–B1 & Sổ tay** → bấm **➕ Thêm từ vựng mới** để lưu riêng vào bộ nhớ trình duyệt của bạn.
